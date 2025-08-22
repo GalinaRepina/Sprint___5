@@ -2,7 +2,7 @@ from locators import MainPageLocators
 from urls import URLS
 from expected_texts import BUN_TEXT, SAUCES_TEXT, TOPPINGS_TEXT
 
-class TestConstructorPage: #комментарий для изменения в файле
+class TestConstructorPage: 
 
     def test_transition_to_bun_success(self, driver):
         driver.get(URLS.MAIN_PAGE_URL)

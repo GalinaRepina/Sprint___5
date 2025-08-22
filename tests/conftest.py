@@ -6,7 +6,7 @@ from data import Person
 from expected_texts import BUN_TEXT, SAUCES_TEXT, TOPPINGS_TEXT
 
 
-@pytest.fixture # фикстура
+@pytest.fixture 
 def driver():
     driver = webdriver.Chrome()
     yield driver

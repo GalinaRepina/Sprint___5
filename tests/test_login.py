@@ -13,7 +13,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 class TestLogin:
 
     def test_login_in_login_btn_success(self, driver):
-        # Вход в личный кабинет через кнопку "Войти в аккаунт" на главной
+        # Вход в личный кабинет через кнопку "Войти в аккаунт" на главной странице
         driver.get(URLS.MAIN_PAGE_URL)  # Открываем главную страницу
         driver.find_element(*MainPageLocators.login_account_btn).click()  # Жмём "Войти в аккаунт"
         driver.find_element(*AuthPageLocators.email_input).send_keys(Person.email)  # Вводим email

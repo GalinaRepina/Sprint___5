@@ -1,3 +1,3 @@
-BUN_TEXT = 'Булки' # комментарий для изменения в файле
+BUN_TEXT = 'Булки' 
 SAUCES_TEXT = 'Соусы'
 TOPPINGS_TEXT = 'Начинки' 

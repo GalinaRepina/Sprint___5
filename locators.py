@@ -16,7 +16,7 @@ class MainPageLocators:
     sauces = (By.XPATH, ".//h2[text() = 'Соусы']")  # Текст соусы на главной странице
     sauces_ul = (
     By.XPATH, "(.//ul[@class = 'BurgerIngredients_ingredients__list__2A-mT'])[2]")  # Выбор соусов на главной странице
-    bun = (By.XPATH, ".//h2[text() = 'Булки']")  # Текст булки на главной странице
+    bun = (By.XPATH, ".//h2[text() = 'Булки']")  # Текст булки на главной 
     bun_ul = (
     By.XPATH, "(.//ul[@class = 'BurgerIngredients_ingredients__list__2A-mT'])[1]")  # Выбор булок на главной странице
     topping = (By.XPATH, ".//h2[text() = 'Начинки']")  # Текст начинки на главной странице

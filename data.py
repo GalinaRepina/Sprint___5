@@ -1,7 +1,7 @@
 from random import randint
 
 class Person:
-    user_name = 'Galkaaa' #мои уникальные данные
+    user_name = 'Galkaaa' 
     email = 'Galka29www@yandex.ru'
     password = '12321A'
 

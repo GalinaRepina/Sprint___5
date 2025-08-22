@@ -8,7 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 class TestRegistrationPage:
 
     def test_registration_success(self, driver):
-        # Проверка нашей регистрации пользователя с корректными данными
+        # Проверка регистрации пользователя с корректными данными
         driver.get(URLS.REG_PAGE_URL)  # Открываем страницу регистрации
         WebDriverWait(driver, 5).until(
             EC.visibility_of_element_located(RegistrationPageLocators.registration_btn)
